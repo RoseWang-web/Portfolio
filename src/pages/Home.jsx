@@ -9,6 +9,7 @@ export const Home = () => {
             <ThemeToggle />
 
             {/* Background Effects */}
+            <StarBackground />
 
             {/* Navbar */}
 

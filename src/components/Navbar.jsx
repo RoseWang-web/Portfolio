@@ -5,7 +5,7 @@ import { Menu, X } from "lucide-react";
 const navItems = [
     // the href using # to link to sections in the same page
     // if the href is to another page, use /pageName
-    { name: "Home", href: "#hero" },
+    { name: "Home", href: "#rose" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
@@ -39,7 +39,7 @@ export const Navbar = () => {
 
 
                 {/* desktop nav */}
-                <div className="hidden md:flex space-x-8">
+                <div className="hidden md:flex space-x-8 justify-center">
                     {navItems.map((item, key) => (
                         <a href={item.href} key={key} className="text-foreground/80 hover:text-primary transition-color duration-300">
                             {item.name}

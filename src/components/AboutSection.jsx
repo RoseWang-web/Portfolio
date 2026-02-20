@@ -8,11 +8,11 @@ export const AboutSection = () => {
                     About <span className="text-primary"> Me</span>
                 </h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative">
                     <div className="space-y-6">
                         <h3>Passionate Web Developer & Tech Creator</h3>
 
-                        <p></p>
+                        <p className="text-muted-foreground">I'm a passionate web developer and tech creator with a love for building innovative digital experiences. My journey in tech began with curiosity and has evolved into a deep appreciation for clean, efficient code and user-centered design.</p>
                     </div>
 
                     <div></div>

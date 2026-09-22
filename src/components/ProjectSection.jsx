@@ -16,6 +16,15 @@ const projects = [
         tags: ["App", "Expo", "Node.js"],
         demoUrl: "#",
         githubUrl: "https://github.com/RoseWang-web/English_Slang"
+    },
+    {
+        id: 3,
+        title: "Sales Dashboard",
+        description: "A dashboard that visualizes sales data and provides insights for business decision-making.",
+        image: "projects/Sales_Dashboard.png",
+        tags: ["Python", "Streamlit", "DataBricks"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/Ash-Uchida/sales-dashboard-factory"
     }
 ]
 export const ProjectSection = ({ title, description, link }) => {

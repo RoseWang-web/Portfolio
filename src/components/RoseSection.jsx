@@ -22,12 +22,6 @@ export const RoseSection = () => {
                         View My Work
                     </a>
                 </div>
-                <img
-                    src="/src/components/Rose_hourse_riding.jpg"
-                    alt="Rose picture"
-
-                    className="mt-8 mx-auto w-48 md:w-64 opacity-80 pointer-events-none select-none block"
-                ></img>
             </div>
 
         </section>

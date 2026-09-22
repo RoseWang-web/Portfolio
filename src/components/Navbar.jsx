@@ -39,7 +39,7 @@ export const Navbar = () => {
 
 
                 {/* desktop nav */}
-                <div className="hidden md:flex space-x-8 justify-center">
+                <div className="hidden md:flex space-x-8 justify-center pr-14">
                     {navItems.map((item, key) => (
                         <a href={item.href} key={key} className="text-foreground/80 hover:text-primary transition-color duration-300">
                             {item.name}
@@ -53,7 +53,7 @@ export const Navbar = () => {
                 {/* mobile nav */}
 
                 <button onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    className="md:hidden p-2 text-foreground z-50"
+                    className="md:hidden p-2 text-foreground z-50 mr-5"
                     aria-label={isMenuOpen ? "Close menu" : "Open menu"}
                 >
                     {isMenuOpen ? <X size={24} /> : <Menu size={24} />} </button>
